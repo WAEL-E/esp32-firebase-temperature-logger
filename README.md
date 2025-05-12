@@ -45,6 +45,27 @@ This is a full-stack IoT project using an **ESP32**, **DHT11 sensor**, and **0.9
 | VCC (both)   | 3.3V      |
 
 ---
+## 🚀 How to Run This Project
 
+1. **Install Arduino Libraries**  
+   - `Adafruit_SSD1306`  
+   - `Adafruit_GFX`  
+   - `DHT sensor library`  
+   - `ArduinoJson`
+
+2. **Configure Firebase**  
+   - Go to [Firebase Console](https://console.firebase.google.com)  
+   - Create project → Realtime Database → Set to **test mode**  
+   - Enable **Email/Password Authentication**  
+   - Create a test user and use those credentials in the code
+
+3. **Edit the Code**  
+   Replace these with your actual values:
+   ```cpp
+   #define WIFI_SSID "YourWiFi"
+   #define WIFI_PASSWORD "YourPassword"
+   #define API_KEY "YourFirebaseAPIKey"
+   #define DATABASE_URL "https://your-project.firebaseio.com"
+---
 Made by **Mohammad Wael** — First-year Computer Engineering @ APU  
 #ESP32 #Firebase #IoT #Arduino #EmbeddedSystems
