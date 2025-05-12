@@ -30,7 +30,7 @@ This is a full-stack IoT project using an **ESP32**, **DHT11 sensor**, and **0.9
 ![OLED](images/oled.png)
 
 ### Firebase Console  
-![Firebase](images/firebase.png)
+![Firebase](images/Firebase.png)
 
 ---
 
