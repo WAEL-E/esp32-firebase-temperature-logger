@@ -17,15 +17,15 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 DHT dht(DHTPIN, DHTTYPE);
 
 // --- WiFi Credentials ---
-const char* ssid = "YES_5G_FOR_ALL_2.4GHz_4519";
-const char* password = "3AC56A59";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
 
 // --- Firebase Auth ---
 const char* authHost = "identitytoolkit.googleapis.com";
-const char* apiKey = "AIzaSyA7kb8ZY-0DusBBFFfWStJxHRG7tC2Wswc";
-const char* userEmail = "mwael3785@gmail.com";
-const char* userPassword = "Mwael2006_";
-const char* dbHost = "esp32-dht11-dc430-default-rtdb.asia-southeast1.firebasedatabase.app";
+const char* apiKey = "your_firebase_api_key";
+const char* userEmail = "your_firebase_email";
+const char* userPassword = "your_firebase_password";
+const char* dbHost = "your_firebase_database_host";
 String idToken;
 
 // --- Timestamp Formatter ---
